@@ -16,6 +16,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"kl_sb": "^1.0.3",
 		"sveltekit-adapter-deno": "^0.12.1"
 	}
 }

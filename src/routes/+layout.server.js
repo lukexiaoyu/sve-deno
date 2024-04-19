@@ -1,8 +1,12 @@
 /** @type {import('./$types').PageServerLoad} */
-import {sb} from 'kl_sb'
-export async function load() {
-    const {data,error}=await sb
-        .from('peos')
-        .select('*')
-    return {peos:data}
+const hr={
+    'X-LC-Id': 'MKfnJcxoVk4CghtfCDbXGgZO-gzGzoHsz',
+    'X-LC-Key': '07oxe84o11rhZUTez5FB9MYU',
+    'Content-Type': 'application/json'
+}
+export async function load({fetch}) {
+    const res=await fetch('https://api.leancloud.cn/1.1/classes/Peo',{headers:hr});
+    const peos=await res.json();
+    return peos
+    
 };

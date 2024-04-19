@@ -3,6 +3,6 @@
     export let data;
 </script>
 
-{#each data.peos as x}
+{#each data.results as x}
     <p>{x.name}-{x.age}-{x.name}</p>
 {/each}

@@ -3,6 +3,7 @@
         {name:'home',link:'/'},
         {name:'two',link:'/two'},
         {name:'sb',link:'/sb'},
+        {name:'text',link:'/text'},
         
     ]
 </script>

@@ -4,5 +4,5 @@ export async function load() {
     const {data,error}=await sb
         .from('peos')
         .select('*')
-    return {peos:data};
+    return {sb_peos:data};
 };

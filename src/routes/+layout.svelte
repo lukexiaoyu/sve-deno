@@ -2,6 +2,7 @@
     const adds=[
         {name:'home',link:'/'},
         {name:'two',link:'/two'},
+        {name:'sb',link:'/sb'},
         
     ]
 </script>
